@@ -4,53 +4,123 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Kimpoy Cuevas</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="includes/style.css" />
   </head>
-
   <body>
     <div class="container">
+      <!-------------------------- Navigation  --------------------------->
       <nav class="navigation">
         <ul class="navigation-nav">
-          <li class="navigation-item"><h3>Kimpoy</h3></li>
           <li class="navigation-item">
-            <a href=""
-              ><i class="fa fa-github" style="font-size: 2.5rem"></i
-            ></a>
-            <a href=""
-              ><i class="fa fa-codepen" style="font-size: 2.5rem"></i
-            ></a>
-            <a href=""
-              ><i class="fa fa-twitter" style="font-size: 2.5rem"></i
-            ></a>
-            <a href=""
-              ><i class="fa fa-instagram" style="font-size: 2.5rem"></i
-            ></a>
+            <h3>Kimpoy</h3>
+          </li>
+          <li class="navigation-item icons">
+            <a href="">
+              <i class="fa fa-github" style="font-size: 2.5rem"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-codepen" style="font-size: 2.5rem"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-twitter" style="font-size: 2.5rem"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-instagram" style="font-size: 2.5rem"></i>
+            </a>
           </li>
         </ul>
       </nav>
 
-      <div class="wrapper">
-        <h1 class="title-text">Hi! I'm Kim Jeoffrey S. Cuevas</h1>
-        <div class="sub-text-wrapper">
-          <div class="tooltip">
-            <h3 class="sub-text">A Web Developer</h3>
-            <span class="tooltiptext"
-              >Html, Css, Vanilla Javascript, Bootstrap, Jquery, Php,
-              Mysql</span
-            >
+      <!-------------------------- Content  --------------------------->
+      <div class="content">
+        <div class="wrapper">
+          <div class="landing">
+            <h1 class="title-text">Hi! I'm Kim Jeoffrey S. Cuevas</h1>
+            <div class="sub-text-wrapper">
+              <div class="tooltip">
+                <h3 class="sub-text">A Web Developer</h3>
+                <span class="tooltiptext">
+                  Html, Css, Vanilla Javascript, Bootstrap, Php, Mysql, Laravel
+                </span>
+              </div>
+            </div>
           </div>
+
+          <!-------------------------- Gallery  --------------------------->
+          <div class="gallery">
+            <h1>Projects</h1>
+
+            <div class="image">
+              <img src="includes/img/image1.jpg" alt="img1" class="image-img" />
+              <div class="image-overlay">
+                <div class="image-title">Image 1</div>
+                <p class="image-description">This is an image</p>
+              </div>
+            </div>
+
+            <div class="image">
+              <img
+                src="includes/img/profile.JPG"
+                alt="img1"
+                class="image-img"
+              />
+              <div class="image-overlay">
+                <div class="image-title">Image 2</div>
+                <p class="image-description">This is an image</p>
+              </div>
+            </div>
+
+            <div class="image">
+              <img src="includes/img/image1.jpg" alt="img1" class="image-img" />
+              <div class="image-overlay">
+                <div class="image-title">Image 3</div>
+                <p class="image-description">This is an image</p>
+              </div>
+            </div>
+
+            <div class="image">
+              <img src="includes/img/image1.jpg" alt="img1" class="image-img" />
+              <div class="image-overlay">
+                <div class="image-title">Image 4</div>
+                <p class="image-description">This is an image</p>
+              </div>
+            </div>
+
+            <div class="image">
+              <img src="includes/img/image1.jpg" alt="img1" class="image-img" />
+              <div class="image-overlay">
+                <div class="image-title">Image 5</div>
+                <p class="image-description">This is an image</p>
+              </div>
+            </div>
+
+            <div class="image">
+              <img src="includes/img/image1.jpg" alt="img1" class="image-img" />
+              <div class="image-overlay">
+                <div class="image-title">Image 6</div>
+                <p class="image-description">This is an image</p>
+              </div>
+            </div>
+          </div>
+          <!-------------------------- End of Gallery  --------------------------->
         </div>
       </div>
     </div>
+    <!-------------------------- Script  --------------------------->
+    <script src="includes/app.js"></script>
   </body>
 </html>
